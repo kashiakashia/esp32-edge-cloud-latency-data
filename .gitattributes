@@ -1,0 +1,9 @@
+# Keep a consistent line-ending policy across OSes.
+* text=auto
+
+# Analysis code and docs should stay LF in repo and working tree.
+*.py text eol=lf
+*.md text eol=lf
+
+# CSV datasets should remain byte-stable for reproducible analysis.
+*.csv text eol=lf
