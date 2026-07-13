@@ -1,0 +1,18 @@
+campaign,scenario,scenario_label,run_id,file,records_unique,node_streams,node_count_metadata_values,duration_min,expected_seq,missing_seq,pdr_percent,L_n2g_median_ms,L_n2g_p95_ms,L_gateway_median_ms,L_gateway_p95_ms
+pre_two_way,1,1 node,PRE-1N-RUN01,timestamping_diagnostics/pre_two_way/influxdata_2026-05-25T16_46_06Z.csv,554,1,,30.42761235,554,0,100.0,726.0,2190.35,4.0,5.0
+pre_two_way,1,1 node,PRE-1N-RUN02,timestamping_diagnostics/pre_two_way/influxdata_2026-05-26T14_01_11Z.csv,532,1,,30.830843116666664,559,27,95.16994633273703,720.0,2281.0,4.0,5.0
+pre_two_way,3,3 nodes,PRE-3N-RUN01,timestamping_diagnostics/pre_two_way/influxdata_2026-06-05T14_26_44Z.csv,1635,3,,31.972254666666668,1744,109,93.75,713.0,2220.3,4.0,6.0
+pre_two_way,3,3 nodes,PRE-3N-RUN02,timestamping_diagnostics/pre_two_way/influxdata_2026-06-07T12_12_05Z.csv,1590,3,,29.714171566666668,1627,37,97.7258758451137,610.0,2201.0,4.0,5.0
+pre_two_way,3,3 nodes,PRE-3N-RUN03,timestamping_diagnostics/pre_two_way/influxdata_2026-06-07T12_46_56Z.csv,1576,3,,29.789717966666668,1629,53,96.74647022713322,720.5,2121.0,4.0,5.0
+pre_two_way,5,5 nodes,PRE-5N-RUN01,timestamping_diagnostics/pre_two_way/influxdata_2026-06-08T10_05_45Z.csv,2687,5,,30.571469416666666,2776,89,96.79394812680115,671.0,2170.0,4.0,5.0
+pre_two_way,5,5 nodes,PRE-5N-RUN02,timestamping_diagnostics/pre_two_way/influxdata_2026-06-09T10_51_33Z.csv,2579,5,,29.89320981666667,2727,148,94.57279061239457,770.0,2181.0,4.0,5.0
+pre_two_way,5,5 nodes,PRE-5N-RUN03,timestamping_diagnostics/pre_two_way/influxdata_2026-06-09T12_04_13Z.csv,2630,5,,29.80046415,2717,87,96.79793890320207,701.0,2172.5499999999997,4.0,5.0
+final_two_way,1,1 node,FINAL-1N-RUN01,final_bridge_two_way/1node/30min_1node_run01/influxdata_2026-06-23T15_24_34Z.csv,1346,1,1,29.965257266666665,1346,0,100.0,71.0,76.0,6.0,7.0
+final_two_way,1,1 node,FINAL-1N-RUN02,final_bridge_two_way/1node/30min_1node_run02/influxdata_2026-06-23T15_56_38Z.csv,1346,1,1,29.975422733333335,1346,0,100.0,68.0,76.0,6.0,7.0
+final_two_way,1,1 node,FINAL-1N-RUN03,final_bridge_two_way/1node/30min_1node_run03/influxdata_2026-06-24T09_36_20Z.csv,1332,1,1,29.97307675,1343,11,99.18093819806404,68.0,77.0,6.0,7.0
+final_two_way,3,3 nodes,FINAL-3N-RUN01,final_bridge_two_way/3nodes/30min_3nodes_run01/influxdata_2026-06-16T17_24_52Z.csv,4032,3,5,29.967454766666666,4035,3,99.92565055762081,70.0,77.0,6.0,7.0
+final_two_way,3,3 nodes,FINAL-3N-RUN02,final_bridge_two_way/3nodes/30min_3nodes_run02/influxdata_2026-06-22T15_21_40Z.csv,4035,3,3,29.969283683333334,4046,11,99.72812654473555,71.0,77.0,6.0,7.0
+final_two_way,3,3 nodes,FINAL-3N-RUN03,final_bridge_two_way/3nodes/30min_3nodes_run03/influxdata_2026-06-22T15_54_23Z.csv,4025,3,3,29.973938033333333,4033,8,99.8016364988842,71.0,77.0,6.0,7.0
+final_two_way,5,5 nodes,FINAL-5N-RUN01,final_bridge_two_way/5nodes/30min_5nodes_run01/influxdata_2026-06-19T13_02_54Z.csv,6679,5,5,29.98202086666667,6695,16,99.76101568334578,71.0,81.0,6.0,9.0
+final_two_way,5,5 nodes,FINAL-5N-RUN02,final_bridge_two_way/5nodes/30min_5nodes_run02/influxdata_2026-06-19T13_51_53Z.csv,6695,5,5,29.990421416666667,6711,16,99.76158545671287,71.0,82.0,6.0,9.0
+final_two_way,5,5 nodes,FINAL-5N-RUN03,final_bridge_two_way/5nodes/30min_5nodes_run03/influxdata_2026-06-19T14_28_36Z.csv,6694,5,5,29.987410633333333,6713,19,99.71696707880233,71.0,82.0,6.0,9.0
