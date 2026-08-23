@@ -1,0 +1,611 @@
+>>> %Run -c $EDITOR_CONTENT
+
+MPY: soft reboot
+ssid: Trabant5 chan: 6 rssi: -59 authmode: WPA/WPA2-PSK
+skipping unknown encrypted network
+ssid: ZTE_64E5D9 chan: 11 rssi: -63 authmode: WPA2-PSK
+Trying to connect to ZTE_64E5D9...
+.......................................................
+Connected. Network config:  ('192.168.0.104', '255.255.255.0', '192.168.0.1', '192.168.0.1')
+Connected to WiFi network: ('192.168.0.104', '255.255.255.0', '192.168.0.1', '192.168.0.1')
+Connecting to Wi-Fi SSID: ZTE_64E5D9
+Connected to Wi-Fi: ('192.168.0.104', '255.255.255.0', '192.168.0.1', '192.168.0.1')
+ESP OK
+[MODE] ENABLE_MQTT_PUBLISH=True; this diagnostic build does not send data to InfluxDB when False
+[WDT] disabled
+[NTP] synchronized at local time: (2026, 8, 11, 8, 27, 43, 1, 223)
+Wi-Fi channel: 11
+[MQTT] Connecting...
+[MQTT] transport mode: plain
+[MQTT] socket timeout set to 5 s
+Connected MQTT PLAINTEXT to "192.168.0.103:1883"
+[MQTT] Connected, subscribing...
+[MQTT] Control RX disabled for experiment run
+MQTT connected & subscribed; attempts_total=1; reconnects_total=1
+Zapytanie od: b'\x08\xa6\xf7i\xc3H' z ID: 08a6f769c348
+Peer b'\x08\xa6\xf7i\xc3H' added.
+Mapa ID count=1; IDs=['08a6f769c348']
+Zapytanie od: b',\xbc\xbb\r\x97\xa0' z ID: 2cbcbb0d97a0
+Peer b',\xbc\xbb\r\x97\xa0' added.
+Mapa ID count=2; IDs=['08a6f769c348', '2cbcbb0d97a0']
+Zapytanie od: b'\x08\xa6\xf7k\xd4(' z ID: 08a6f76bd428
+Peer b'\x08\xa6\xf7k\xd4(' added.
+Mapa ID count=3; IDs=['2cbcbb0d97a0', '08a6f769c348', '08a6f76bd428']
+[STATUS][FLOW] ts_unix_ms=1786436895214; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=33; pub=33; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786436895214; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.39; publish_ms_max=5
+[STATUS][SYNC] ts_unix_ms=1786436895214; run_id=BRIDGE_PERIODIC_5N_RUN01; req=9; ack=9; noack=0; errors=0; mem_free=43072; peers=3
+[ESP][RX] rx_total=100; rx_q=1; tx_q=0; last_seq=35; mem_free=56896
+[MQTT][TX] tx_total=100; tx_q=0; rx_q=0; last_seq=35; publish_ms=3; mem_free=82096
+[STATUS][FLOW] ts_unix_ms=1786436925253; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=103; pub=103; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786436925253; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.26; publish_ms_max=5
+[STATUS][SYNC] ts_unix_ms=1786436925253; run_id=BRIDGE_PERIODIC_5N_RUN01; req=27; ack=27; noack=0; errors=0; mem_free=72768; peers=3
+[STATUS][FLOW] ts_unix_ms=1786436955293; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=174; pub=174; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786436955293; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=5
+[STATUS][SYNC] ts_unix_ms=1786436955293; run_id=BRIDGE_PERIODIC_5N_RUN01; req=36; ack=36; noack=0; errors=0; mem_free=75344; peers=3
+[ESP][RX] rx_total=200; rx_q=1; tx_q=0; last_seq=66; mem_free=64896
+[MQTT][TX] tx_total=200; tx_q=0; rx_q=0; last_seq=66; publish_ms=4; mem_free=83120
+[STATUS][FLOW] ts_unix_ms=1786436985333; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=243; pub=243; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786436985333; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.13; publish_ms_max=5
+[STATUS][SYNC] ts_unix_ms=1786436985333; run_id=BRIDGE_PERIODIC_5N_RUN01; req=54; ack=54; noack=0; errors=0; mem_free=48640; peers=3
+[ESP][RX] rx_total=300; rx_q=1; tx_q=0; last_seq=98; mem_free=61216
+[MQTT][TX] tx_total=300; tx_q=0; rx_q=0; last_seq=98; publish_ms=4; mem_free=83120
+[STATUS][FLOW] ts_unix_ms=1786437015373; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=314; pub=314; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437015373; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.12; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437015373; run_id=BRIDGE_PERIODIC_5N_RUN01; req=63; ack=63; noack=0; errors=0; mem_free=75216; peers=3
+[STATUS][FLOW] ts_unix_ms=1786437045413; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=384; pub=384; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437045413; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.13; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437045413; run_id=BRIDGE_PERIODIC_5N_RUN01; req=81; ack=81; noack=0; errors=0; mem_free=55616; peers=3
+[ESP][RX] rx_total=400; rx_q=1; tx_q=0; last_seq=137; mem_free=49824
+[MQTT][TX] tx_total=400; tx_q=0; rx_q=0; last_seq=137; publish_ms=4; mem_free=83088
+����������������������������������������������������������������7075453; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=455; pub=455; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437075453; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.13; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437075453; run_id=BRIDGE_PERIODIC_5N_RUN01; req=90; ack=90; noack=0; errors=0; mem_free=49488; peers=3
+[ESP][RX] rx_total=500; rx_q=1; tx_q=0; last_seq=170; mem_free=60992
+[MQTT][TX] tx_total=500; tx_q=0; rx_q=0; last_seq=170; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786437105493; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=525; pub=525; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437105493; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.13; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437105493; run_id=BRIDGE_PERIODIC_5N_RUN01; req=107; ack=107; noack=0; errors=0; mem_free=71200; peers=3
+[STATUS][FLOW] ts_unix_ms=1786437135533; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=596; pub=596; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437135533; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.14; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437135533; run_id=BRIDGE_PERIODIC_5N_RUN01; req=117; ack=117; noack=0; errors=0; mem_free=58560; peers=3
+[ESP][RX] rx_total=600; rx_q=1; tx_q=0; last_seq=204; mem_free=48560
+[MQTT][TX] tx_total=600; tx_q=0; rx_q=0; last_seq=204; publish_ms=5; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786437165573; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=664; pub=664; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437165573; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.15; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437165573; run_id=BRIDGE_PERIODIC_5N_RUN01; req=126; ack=126; noack=0; errors=0; mem_free=64144; peers=3
+[ESP][RX] rx_total=700; rx_q=1; tx_q=0; last_seq=231; mem_free=58848
+[MQTT][TX] tx_total=700; tx_q=0; rx_q=0; last_seq=231; publish_ms=3; mem_free=82048
+[STATUS][FLOW] ts_unix_ms=1786437195632; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=732; pub=732; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437195632; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.13; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437195632; run_id=BRIDGE_PERIODIC_5N_RUN01; req=144; ack=144; noack=0; errors=0; mem_free=54816; peers=3
+[ESP][RX] rx_total=800; rx_q=1; tx_q=0; last_seq=265; mem_free=71984
+[MQTT][TX] tx_total=800; tx_q=0; rx_q=0; last_seq=265; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786437225710; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=800; pub=800; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437225710; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.13; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437225710; run_id=BRIDGE_PERIODIC_5N_RUN01; req=153; ack=153; noack=0; errors=0; mem_free=81600; peers=3
+[STATUS][FLOW] ts_unix_ms=1786437255754; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=868; pub=868; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437255754; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.14; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437255754; run_id=BRIDGE_PERIODIC_5N_RUN01; req=171; ack=171; noack=0; errors=0; mem_free=78896; peers=3
+[ESP][RX] rx_total=900; rx_q=1; tx_q=0; last_seq=298; mem_free=49856
+[MQTT][TX] tx_total=900; tx_q=0; rx_q=0; last_seq=298; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786437285793; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=939; pub=939; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437285793; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.15; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437285793; run_id=BRIDGE_PERIODIC_5N_RUN01; req=180; ack=180; noack=0; errors=0; mem_free=67808; peers=3
+[ESP][RX] rx_total=1000; rx_q=1; tx_q=0; last_seq=338; mem_free=60960
+[MQTT][TX] tx_total=1000; tx_q=0; rx_q=0; last_seq=338; publish_ms=5; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786437315833; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=1007; pub=1007; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437315833; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.15; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437315833; run_id=BRIDGE_PERIODIC_5N_RUN01; req=198; ack=198; noack=0; errors=0; mem_free=55856; peers=3
+[STATUS][FLOW] ts_unix_ms=1786437345873; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=1076; pub=1076; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437345873; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.15; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437345873; run_id=BRIDGE_PERIODIC_5N_RUN01; req=207; ack=207; noack=0; errors=0; mem_free=78704; peers=3
+[ESP][RX] rx_total=1100; rx_q=1; tx_q=0; last_seq=371; mem_free=79312
+[MQTT][TX] tx_total=1100; tx_q=0; rx_q=0; last_seq=371; publish_ms=4; mem_free=83088
+[STATUS][FLOW] ts_unix_ms=1786437375913; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=1144; pub=1144; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437375913; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.14; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437375913; run_id=BRIDGE_PERIODIC_5N_RUN01; req=225; ack=225; noack=0; errors=0; mem_free=54144; peers=3
+[ESP][RX] rx_total=1200; rx_q=1; tx_q=0; last_seq=398; mem_free=75664
+[MQTT][TX] tx_total=1200; tx_q=0; rx_q=0; last_seq=398; publish_ms=4; mem_free=83088
+[STATUS][FLOW] ts_unix_ms=1786437405953; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=1216; pub=1216; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437405953; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.13; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437405953; run_id=BRIDGE_PERIODIC_5N_RUN01; req=234; ack=234; noack=0; errors=0; mem_free=74240; peers=3
+[STATUS][FLOW] ts_unix_ms=1786437435993; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=1286; pub=1286; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437435993; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.13; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437435993; run_id=BRIDGE_PERIODIC_5N_RUN01; req=252; ack=252; noack=0; errors=0; mem_free=64048; peers=3
+[ESP][RX] rx_total=1300; rx_q=1; tx_q=0; last_seq=438; mem_free=64384
+[MQTT][TX] tx_total=1300; tx_q=0; rx_q=0; last_seq=438; publish_ms=5; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786437466033; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=1354; pub=1354; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437466033; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.12; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437466033; run_id=BRIDGE_PERIODIC_5N_RUN01; req=261; ack=261; noack=0; errors=0; mem_free=64272; peers=3
+[ESP][RX] rx_total=1400; rx_q=1; tx_q=0; last_seq=464; mem_free=82992
+[MQTT][TX] tx_total=1400; tx_q=0; rx_q=0; last_seq=464; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786437496073; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=1424; pub=1424; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437496073; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.12; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437496073; run_id=BRIDGE_PERIODIC_5N_RUN01; req=279; ack=279; noack=0; errors=0; mem_free=36048; peers=3
+[STATUS][FLOW] ts_unix_ms=1786437526113; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=1493; pub=1493; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437526113; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.12; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437526113; run_id=BRIDGE_PERIODIC_5N_RUN01; req=288; ack=288; noack=0; errors=0; mem_free=42272; peers=3
+[ESP][RX] rx_total=1500; rx_q=1; tx_q=0; last_seq=498; mem_free=68240
+[MQTT][TX] tx_total=1500; tx_q=0; rx_q=0; last_seq=498; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786437556153; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=1563; pub=1563; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437556153; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.11; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437556153; run_id=BRIDGE_PERIODIC_5N_RUN01; req=300; ack=300; noack=0; errors=0; mem_free=65072; peers=3
+[ESP][RX] rx_total=1600; rx_q=1; tx_q=0; last_seq=533; mem_free=62672
+[MQTT][TX] tx_total=1600; tx_q=0; rx_q=0; last_seq=533; publish_ms=3; mem_free=82080
+[STATUS][FLOW] ts_unix_ms=1786437586193; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=1634; pub=1634; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437586193; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.11; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437586193; run_id=BRIDGE_PERIODIC_5N_RUN01; req=315; ack=315; noack=0; errors=0; mem_free=43680; peers=3
+����������������������������������������������������������������P][RX] rx_total=1700; rx_q=1; tx_q=0; last_seq=566; mem_free=68288
+[MQTT][TX] tx_total=1700; tx_q=0; rx_q=0; last_seq=566; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786437616233; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=1704; pub=1704; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437616233; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.13; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437616233; run_id=BRIDGE_PERIODIC_5N_RUN01; req=324; ack=324; noack=0; errors=0; mem_free=68912; peers=3
+[STATUS][FLOW] ts_unix_ms=1786437646273; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=1773; pub=1773; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437646273; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.13; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437646273; run_id=BRIDGE_PERIODIC_5N_RUN01; req=342; ack=342; noack=0; errors=0; mem_free=60320; peers=3
+[ESP][RX] rx_total=1800; rx_q=1; tx_q=0; last_seq=597; mem_free=48624
+[MQTT][TX] tx_total=1800; tx_q=0; rx_q=0; last_seq=597; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786437676314; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=1841; pub=1841; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437676314; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.12; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437676314; run_id=BRIDGE_PERIODIC_5N_RUN01; req=351; ack=351; noack=0; errors=0; mem_free=71504; peers=3
+[ESP][RX] rx_total=1900; rx_q=1; tx_q=0; last_seq=633; mem_free=80128
+[MQTT][TX] tx_total=1900; tx_q=0; rx_q=0; last_seq=633; publish_ms=5; mem_free=83088
+[STATUS][FLOW] ts_unix_ms=1786437706353; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=1913; pub=1913; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437706353; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.13; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437706353; run_id=BRIDGE_PERIODIC_5N_RUN01; req=369; ack=369; noack=0; errors=0; mem_free=35888; peers=3
+[STATUS][FLOW] ts_unix_ms=1786437736393; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=1983; pub=1983; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437736393; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.14; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437736393; run_id=BRIDGE_PERIODIC_5N_RUN01; req=378; ack=378; noack=0; errors=0; mem_free=75184; peers=3
+[ESP][RX] rx_total=2000; rx_q=1; tx_q=0; last_seq=666; mem_free=55152
+[MQTT][TX] tx_total=2000; tx_q=0; rx_q=0; last_seq=666; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786437766433; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=2054; pub=2054; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437766433; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.13; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437766433; run_id=BRIDGE_PERIODIC_5N_RUN01; req=396; ack=396; noack=0; errors=0; mem_free=69456; peers=3
+[ESP][RX] rx_total=2100; rx_q=1; tx_q=0; last_seq=697; mem_free=36736
+[MQTT][TX] tx_total=2100; tx_q=0; rx_q=0; last_seq=697; publish_ms=5; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786437796473; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=2124; pub=2124; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437796473; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.14; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437796473; run_id=BRIDGE_PERIODIC_5N_RUN01; req=405; ack=405; noack=0; errors=0; mem_free=82528; peers=3
+[STATUS][FLOW] ts_unix_ms=1786437826514; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=2196; pub=2196; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437826514; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.14; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437826514; run_id=BRIDGE_PERIODIC_5N_RUN01; req=423; ack=423; noack=0; errors=0; mem_free=38592; peers=3
+[ESP][RX] rx_total=2200; rx_q=1; tx_q=0; last_seq=730; mem_free=75744
+[MQTT][TX] tx_total=2200; tx_q=0; rx_q=0; last_seq=730; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786437856572; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=2264; pub=2264; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437856572; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.14; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437856572; run_id=BRIDGE_PERIODIC_5N_RUN01; req=432; ack=432; noack=0; errors=0; mem_free=73008; peers=3
+[ESP][RX] rx_total=2300; rx_q=1; tx_q=0; last_seq=767; mem_free=69920
+[MQTT][TX] tx_total=2300; tx_q=0; rx_q=0; last_seq=767; publish_ms=3; mem_free=82048
+[STATUS][FLOW] ts_unix_ms=1786437886613; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=2335; pub=2335; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437886613; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.13; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437886613; run_id=BRIDGE_PERIODIC_5N_RUN01; req=450; ack=450; noack=0; errors=0; mem_free=37104; peers=3
+[ESP][RX] rx_total=2400; rx_q=1; tx_q=0; last_seq=806; mem_free=75632
+[MQTT][TX] tx_total=2400; tx_q=0; rx_q=0; last_seq=806; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786437916653; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=2405; pub=2405; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437916653; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.14; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437916653; run_id=BRIDGE_PERIODIC_5N_RUN01; req=459; ack=459; noack=0; errors=0; mem_free=65216; peers=3
+[STATUS][FLOW] ts_unix_ms=1786437946693; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=2471; pub=2471; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437946693; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.14; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437946693; run_id=BRIDGE_PERIODIC_5N_RUN01; req=477; ack=477; noack=0; errors=0; mem_free=40624; peers=3
+[ESP][RX] rx_total=2500; rx_q=1; tx_q=0; last_seq=834; mem_free=71936
+[MQTT][TX] tx_total=2500; tx_q=0; rx_q=0; last_seq=834; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786437976752; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=2542; pub=2542; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786437976752; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.14; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786437976752; run_id=BRIDGE_PERIODIC_5N_RUN01; req=486; ack=486; noack=0; errors=0; mem_free=62112; peers=3
+[ESP][RX] rx_total=2600; rx_q=1; tx_q=0; last_seq=868; mem_free=74352
+[MQTT][TX] tx_total=2600; tx_q=0; rx_q=0; last_seq=868; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786438006793; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=2608; pub=2608; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438006793; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.15; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438006793; run_id=BRIDGE_PERIODIC_5N_RUN01; req=498; ack=498; noack=0; errors=0; mem_free=51296; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438036833; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=2678; pub=2678; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438036833; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.15; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438036833; run_id=BRIDGE_PERIODIC_5N_RUN01; req=513; ack=513; noack=0; errors=0; mem_free=53088; peers=3
+[ESP][RX] rx_total=2700; rx_q=1; tx_q=0; last_seq=895; mem_free=65392
+[MQTT][TX] tx_total=2700; tx_q=0; rx_q=0; last_seq=895; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786438066873; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=2748; pub=2748; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438066873; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.16; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438066873; run_id=BRIDGE_PERIODIC_5N_RUN01; req=525; ack=525; noack=0; errors=0; mem_free=76800; peers=3
+[ESP][RX] rx_total=2800; rx_q=1; tx_q=0; last_seq=940; mem_free=71232
+[MQTT][TX] tx_total=2800; tx_q=0; rx_q=0; last_seq=940; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786438096913; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=2817; pub=2817; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438096913; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.16; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438096913; run_id=BRIDGE_PERIODIC_5N_RUN01; req=540; ack=540; noack=0; errors=0; mem_free=64128; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438126953; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=2888; pub=2888; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438126953; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.16; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438126953; run_id=BRIDGE_PERIODIC_5N_RUN01; req=549; ack=549; noack=0; errors=0; mem_free=65808; peers=3
+[ESP][RX] rx_total=2900; rx_q=1; tx_q=0; last_seq=967; mem_free=62512
+[MQTT][TX] tx_total=2900; tx_q=0; rx_q=0; last_seq=967; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786438156993; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=2957; pub=2957; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438156993; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.16; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438156993; run_id=BRIDGE_PERIODIC_5N_RUN01; req=567; ack=567; noack=0; errors=0; mem_free=60464; peers=3
+[ESP][RX] rx_total=3000; rx_q=1; tx_q=0; last_seq=1001; mem_free=36880
+[MQTT][TX] tx_total=3000; tx_q=0; rx_q=0; last_seq=1001; publish_ms=5; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786438187034; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=3026; pub=3026; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438187034; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.16; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438187034; run_id=BRIDGE_PERIODIC_5N_RUN01; req=576; ack=576; noack=0; errors=0; mem_free=73136; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438217074; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=3095; pub=3095; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438217074; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.16; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438217074; run_id=BRIDGE_PERIODIC_5N_RUN01; req=594; ack=594; noack=0; errors=0; mem_free=71504; peers=3
+[ESP][RX] rx_total=3100; rx_q=1; tx_q=0; last_seq=1034; mem_free=55632
+[MQTT][TX] tx_total=3100; tx_q=0; rx_q=0; last_seq=1034; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786438247113; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=3164; pub=3164; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438247113; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.16; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438247113; run_id=BRIDGE_PERIODIC_5N_RUN01; req=603; ack=603; noack=0; errors=0; mem_free=51040; peers=3
+[ESP][RX] rx_total=3200; rx_q=1; tx_q=0; last_seq=1074; mem_free=75632
+[MQTT][TX] tx_total=3200; tx_q=0; rx_q=0; last_seq=1074; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786438277153; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=3234; pub=3234; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438277153; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.16; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438277153; run_id=BRIDGE_PERIODIC_5N_RUN01; req=621; ack=621; noack=0; errors=0; mem_free=40128; peers=3
+[ESP][RX] rx_total=3300; rx_q=1; tx_q=0; last_seq=1094; mem_free=58848
+[MQTT][TX] tx_total=3300; tx_q=0; rx_q=0; last_seq=1094; publish_ms=4; mem_free=82048
+[STATUS][FLOW] ts_unix_ms=1786438307194; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=3303; pub=3303; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438307194; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.16; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438307194; run_id=BRIDGE_PERIODIC_5N_RUN01; req=630; ack=630; noack=0; errors=0; mem_free=70528; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438337233; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=3370; pub=3370; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438337233; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.16; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438337233; run_id=BRIDGE_PERIODIC_5N_RUN01; req=648; ack=648; noack=0; errors=0; mem_free=72496; peers=3
+[ESP][RX] rx_total=3400; rx_q=1; tx_q=0; last_seq=1133; mem_free=57216
+[MQTT][TX] tx_total=3400; tx_q=0; rx_q=0; last_seq=1133; publish_ms=4; mem_free=83072
+����������������������������������������������������������������1786438367279; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=3441; pub=3440; rx_q=1/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438367279; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.16; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438367279; run_id=BRIDGE_PERIODIC_5N_RUN01; req=657; ack=657; noack=0; errors=0; mem_free=66912; peers=3
+[ESP][RX] rx_total=3500; rx_q=1; tx_q=0; last_seq=1175; mem_free=64592
+[MQTT][TX] tx_total=3500; tx_q=0; rx_q=0; last_seq=1175; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786438397323; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=3510; pub=3510; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438397323; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.16; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438397323; run_id=BRIDGE_PERIODIC_5N_RUN01; req=672; ack=672; noack=0; errors=0; mem_free=41056; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438427363; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=3579; pub=3579; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438427363; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438427363; run_id=BRIDGE_PERIODIC_5N_RUN01; req=684; ack=684; noack=0; errors=0; mem_free=53104; peers=3
+[ESP][RX] rx_total=3600; rx_q=1; tx_q=0; last_seq=1207; mem_free=61712
+[MQTT][TX] tx_total=3600; tx_q=0; rx_q=0; last_seq=1207; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786438457403; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=3650; pub=3650; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438457403; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438457403; run_id=BRIDGE_PERIODIC_5N_RUN01; req=696; ack=696; noack=0; errors=0; mem_free=66864; peers=3
+[ESP][RX] rx_total=3700; rx_q=1; tx_q=0; last_seq=1233; mem_free=50672
+[MQTT][TX] tx_total=3700; tx_q=0; rx_q=0; last_seq=1233; publish_ms=4; mem_free=83104
+[STATUS][FLOW] ts_unix_ms=1786438487443; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=3722; pub=3722; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438487443; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438487443; run_id=BRIDGE_PERIODIC_5N_RUN01; req=711; ack=711; noack=0; errors=0; mem_free=45200; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438517483; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=3791; pub=3791; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438517483; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438517483; run_id=BRIDGE_PERIODIC_5N_RUN01; req=723; ack=723; noack=0; errors=0; mem_free=39184; peers=3
+[ESP][RX] rx_total=3800; rx_q=1; tx_q=0; last_seq=1260; mem_free=51584
+[MQTT][TX] tx_total=3800; tx_q=0; rx_q=0; last_seq=1260; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786438547523; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=3860; pub=3860; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438547523; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438547523; run_id=BRIDGE_PERIODIC_5N_RUN01; req=738; ack=738; noack=0; errors=0; mem_free=67824; peers=3
+[ESP][RX] rx_total=3900; rx_q=1; tx_q=0; last_seq=1299; mem_free=53392
+[MQTT][TX] tx_total=3900; tx_q=0; rx_q=0; last_seq=1299; publish_ms=5; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786438577567; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=3931; pub=3931; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438577567; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438577567; run_id=BRIDGE_PERIODIC_5N_RUN01; req=748; ack=748; noack=0; errors=0; mem_free=53760; peers=3
+[ESP][RX] rx_total=4000; rx_q=1; tx_q=0; last_seq=1332; mem_free=54176
+[MQTT][TX] tx_total=4000; tx_q=0; rx_q=0; last_seq=1332; publish_ms=3; mem_free=80000
+[STATUS][FLOW] ts_unix_ms=1786438607613; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4000; pub=4000; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438607613; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438607613; run_id=BRIDGE_PERIODIC_5N_RUN01; req=765; ack=765; noack=0; errors=0; mem_free=83616; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438637654; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4070; pub=4070; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438637654; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438637654; run_id=BRIDGE_PERIODIC_5N_RUN01; req=774; ack=774; noack=0; errors=0; mem_free=80496; peers=3
+[ESP][RX] rx_total=4100; rx_q=1; tx_q=0; last_seq=1360; mem_free=57232
+[MQTT][TX] tx_total=4100; tx_q=0; rx_q=0; last_seq=1360; publish_ms=4; mem_free=83072
+[STATUS][FLOW] ts_unix_ms=1786438667693; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4138; pub=4138; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438667693; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438667693; run_id=BRIDGE_PERIODIC_5N_RUN01; req=792; ack=792; noack=0; errors=0; mem_free=71488; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438697733; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438697733; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438697733; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=74160; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438727773; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438727773; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438727773; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=72560; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438757813; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438757813; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438757813; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=70960; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438787853; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438787853; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438787853; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=69360; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438817893; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438817893; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438817893; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=67760; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438847933; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438847933; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438847933; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=66160; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438877973; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438877973; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438877973; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=64560; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438908013; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438908013; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438908013; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=65008; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438938053; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438938053; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438938053; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=63408; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438968093; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438968093; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438968093; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=61808; peers=3
+[STATUS][FLOW] ts_unix_ms=1786438998133; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786438998133; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786438998133; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=60208; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439028173; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439028173; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439028173; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=58608; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439058213; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439058213; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439058213; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=57008; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439088253; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439088253; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439088253; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=55408; peers=3
+����������������������������������������������������������������x_ms=1786439118293; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439118293; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439118293; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=53808; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439148333; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439148333; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439148333; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=52208; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439178373; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439178373; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439178373; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=50608; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439208413; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439208413; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439208413; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=49008; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439238453; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439238453; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439238453; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=47408; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439268493; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439268493; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439268493; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=45808; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439298533; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439298533; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439298533; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=44208; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439328573; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439328573; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439328573; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=42608; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439358613; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439358613; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439358613; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=41008; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439388653; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439388653; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439388653; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=39408; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439418693; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439418693; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439418693; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=37808; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439448733; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439448733; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439448733; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=86832; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439478783; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439478783; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439478783; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=85232; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439508823; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439508823; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439508823; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=83632; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439538863; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439538863; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439538863; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=82032; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439568903; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439568903; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439568903; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=80432; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439598943; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439598943; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439598943; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=78832; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439628983; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439628983; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439628983; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=77232; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439659023; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439659023; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439659023; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=75632; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439689063; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439689063; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439689063; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=74032; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439719103; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439719103; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439719103; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=72432; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439749143; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439749143; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439749143; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=70832; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439779183; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439779183; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439779183; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=69232; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439809223; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439809223; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439809223; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=67632; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439839263; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439839263; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439839263; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=66032; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439869303; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439869303; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439869303; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=64432; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439899343; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439899343; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439899343; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=62832; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439929383; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439929383; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439929383; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=61232; peers=3
+[STATUS][FLOW] ts_unix_ms=1786439959423; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439959423; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439959423; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=59632; peers=3
+����������������������������������������������������������������9989463; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786439989463; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786439989463; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=58032; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440019503; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440019503; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440019503; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=56432; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440049543; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440049543; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440049543; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=54832; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440079583; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440079583; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440079583; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=53232; peers=3
+����������������������������������������������������������������0109623; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440109623; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440109623; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=51632; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440139663; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440139663; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440139663; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=50032; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440169703; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440169703; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440169703; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=48432; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440199743; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440199743; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440199743; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=46832; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440229783; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440229783; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440229783; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=45232; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440259823; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440259823; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440259823; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=43632; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440289863; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440289863; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440289863; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=42032; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440319903; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440319903; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440319903; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=40432; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440349943; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440349943; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440349943; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=38832; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440379983; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440379983; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440379983; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=37232; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440410033; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440410033; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440410033; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=86224; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440440073; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440440073; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440440073; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=84624; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440470113; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440470113; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440470113; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=83024; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440500153; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440500153; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440500153; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=81424; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440530193; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440530193; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440530193; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=79824; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440560233; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440560233; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440560233; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=78224; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440590273; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440590273; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440590273; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=76624; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440620313; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440620313; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440620313; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=75024; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440650353; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440650353; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440650353; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=73424; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440680393; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440680393; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440680393; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=71824; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440710433; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440710433; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440710433; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=70224; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440740473; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440740473; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440740473; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=68624; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440770513; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440770513; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440770513; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=67024; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440800553; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440800553; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440800553; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=65424; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440830593; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440830593; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440830593; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=63824; peers=3
+����������������������������������������������������������������0860633; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440860633; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440860633; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=62224; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440890673; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440890673; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440890673; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=60624; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440920713; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440920713; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440920713; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=59024; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440950753; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440950753; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440950753; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=57424; peers=3
+[STATUS][FLOW] ts_unix_ms=1786440980793; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786440980793; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786440980793; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=55824; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441010833; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441010833; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441010833; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=54224; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441040873; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441040873; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441040873; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=52624; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441070913; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441070913; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441070913; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=51024; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441100953; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441100953; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441100953; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=49424; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441130993; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441130993; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441130993; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=47824; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441161033; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441161033; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441161033; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=46224; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441191073; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441191073; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441191073; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=44624; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441221113; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441221113; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441221113; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=43024; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441251153; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441251153; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441251153; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=41424; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441281193; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441281193; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441281193; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=39824; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441311233; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441311233; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441311233; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=38224; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441341273; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441341273; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441341273; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=87216; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441371313; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441371313; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441371313; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=85616; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441401353; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441401353; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441401353; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=84016; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441431393; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441431393; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441431393; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=82416; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441461433; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441461433; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441461433; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=80816; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441491473; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441491473; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441491473; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=79216; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441521513; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441521513; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441521513; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=77616; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441551553; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441551553; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441551553; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=76016; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441581593; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441581593; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441581593; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=74416; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441611633; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441611633; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441611633; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=72816; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441641673; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441641673; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441641673; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=71216; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441671713; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441671713; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441671713; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=69616; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441701753; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441701753; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441701753; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=68016; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441731793; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441731793; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441731793; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=66416; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441761833; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441761833; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441761833; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=64816; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441791873; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441791873; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441791873; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=63216; peers=3
+[STATUS][FLOW] ts_unix_ms=1786441821913; run_id=BRIDGE_PERIODIC_5N_RUN01; rx=4186; pub=4186; rx_q=0/max1; tx_q=0/max1; rx_drop=0; tx_drop=0; retry=False
+[STATUS][MQTT] ts_unix_ms=1786441821913; run_id=BRIDGE_PERIODIC_5N_RUN01; attempts=1; connections=1; reconnects_after_initial=0; publish_fail=0; requeued=0; err104=0; err113=0; publish_ms_mean=4.17; publish_ms_max=6
+[STATUS][SYNC] ts_unix_ms=1786441821913; run_id=BRIDGE_PERIODIC_5N_RUN01; req=795; ack=795; noack=0; errors=0; mem_free=61616; peers=3
+

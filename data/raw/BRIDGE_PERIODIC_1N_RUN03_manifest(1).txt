@@ -1,0 +1,40 @@
+BRIDGE_PERIODIC_1N_RUN03
+
+Source: influxdata_2026-08-12T09_54_46Z.csv
+Telemetry rows retained: 1381
+Distinct nodes: 1
+Run-summary rows retained: 1
+
+Per-node coverage:
+08a6f76bd428: records=1381, seq=1..1381, first=2026-08-12T09:24:20.6515201Z, last=2026-08-12T09:54:19.8438347Z, final_tx=1381, elapsed_ms=1800210
+
+
+| Node         |   TX | Unique stored |        PDR | (L_{n2g}) mean | median | p95 | median (w_\theta) |
+| ------------ | ---: | ------------: | ---------: | -------------: | -----: | --: | ----------------: |
+| 08a6f76bd428 | 1381 |          1381 | **100.00%** |          23.24 |     23 |  28 |                29 |
+
+
+| Metryka                         |                1N RUN03 |
+| ------------------------------- | ----------------------: |
+| Sender TX attempts              |                **1381** |
+| Sender ACK true                 | **1381 / 1381 = 100%** |
+| ACK false                       |                   **0** |
+| Send errors                     |                   **0** |
+| Unique records stored in Influx |                **1381** |
+| Missing sequence numbers        |                  **0** |
+| Duplicates                      |                   **0** |
+| **Stored PDR**                  |             **100.000%** |
+| (L_{n2g}) mean ± SD             |     **23.24 ± 3.21 ms** |
+| (L_{n2g}) median                |               **23 ms** |
+| (L_{n2g}) p95                   |               **28 ms** |
+| (L_{gateway}) mean ± SD         |     **13.28 ± 1.02 ms** |
+| (L_{gateway}) median            |               **13 ms** |
+| (L_{gateway}) p95               |               **14 ms** |
+| (L_{backend}) mean ± SD         | **1030.78 ± 10.94 ms** |
+| (L_{backend}) median            |          **1030.15 ms** |
+| (L_{backend}) p95               |          **1046.02 ms** |
+| (L_{total}) mean ± SD           | **1067.30 ± 11.46 ms** |
+| (L_{total}) median              |          **1066.58 ms** |
+| (L_{total}) p95                 |          **1083.89 ms** |
+| median (w_\theta)               |               **29 ms** |
+| p95 (w_\theta)                  |               **30 ms** |

@@ -1,0 +1,40 @@
+BRIDGE_PERIODIC_1N_RUN01
+
+Source: influxdata_2026-08-12T08_19_38Z.csv
+Telemetry rows retained: 1380
+Distinct nodes: 1
+Run-summary rows retained: 1
+
+Per-node coverage:
+08a6f76bd428: records=1380, seq=1..1380, first=2026-08-12T07:48:50.7883739Z, last=2026-08-12T08:18:49.5657479Z, final_tx=1380, elapsed_ms=1800030
+
+
+| Node         |   TX | Unique stored |        PDR | (L_{n2g}) mean | median | p95 | median (w_\theta) |
+| ------------ | ---: | ------------: | ---------: | -------------: | -----: | --: | ----------------: |
+| 08a6f76bd428 | 1380 |          1380 | **100.00%** |          23.02 |     23 |  28 |                29 |
+
+
+| Metryka                         |                1N RUN01 |
+| ------------------------------- | ----------------------: |
+| Sender TX attempts              |                **1380** |
+| Sender ACK true                 | **1380 / 1380 = 100%** |
+| ACK false                       |                   **0** |
+| Send errors                     |                   **0** |
+| Unique records stored in Influx |                **1380** |
+| Missing sequence numbers        |                  **0** |
+| Duplicates                      |                   **0** |
+| **Stored PDR**                  |             **100.000%** |
+| (L_{n2g}) mean ± SD             |     **23.02 ± 3.41 ms** |
+| (L_{n2g}) median                |               **23 ms** |
+| (L_{n2g}) p95                   |               **28 ms** |
+| (L_{gateway}) mean ± SD         |     **13.38 ± 1.69 ms** |
+| (L_{gateway}) median            |               **13 ms** |
+| (L_{gateway}) p95               |               **14 ms** |
+| (L_{backend}) mean ± SD         | **564.75 ± 34.93 ms** |
+| (L_{backend}) median            |          **561.39 ms** |
+| (L_{backend}) p95               |          **579.28 ms** |
+| (L_{total}) mean ± SD           | **601.15 ± 35.18 ms** |
+| (L_{total}) median              |          **598.15 ms** |
+| (L_{total}) p95                 |          **616.66 ms** |
+| median (w_\theta)               |               **29 ms** |
+| p95 (w_\theta)                  |               **30 ms** |

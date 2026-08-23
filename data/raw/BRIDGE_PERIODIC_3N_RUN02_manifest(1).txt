@@ -1,0 +1,44 @@
+BRIDGE_PERIODIC_3N_RUN02
+
+Source: influxdata_2026-08-11T17_59_32Z.csv
+Telemetry rows retained: 4155
+Distinct nodes: 3
+Run-summary rows retained: 3
+
+Per-node coverage:
+08a6f769c348: records=1389, seq=1..1389, first=2026-08-11T17:29:00.3745304Z, last=2026-08-11T17:59:00.1557396Z, final_tx=1389, elapsed_ms=1801350
+08a6f76bd428: records=1388, seq=1..1391, first=2026-08-11T17:29:05.9165242Z, last=2026-08-11T17:59:04.6524183Z, final_tx=1391, elapsed_ms=1800320
+2cbcbb0d97a0: records=1378, seq=1..1379, first=2026-08-11T17:29:16.2067949Z, last=2026-08-11T17:59:15.3287348Z, final_tx=1379, elapsed_ms=1800433
+
+
+| Node         |   TX | Unique stored |        PDR | (L_{n2g}) mean | median | p95 | median (w_\theta) |
+| ------------ | ---: | ------------: | ---------: | -------------: | -----: | --: | ----------------: |
+| 08a6f769c348 | 1389 |          1389 | **100.00%** |          25.21 |     23 |  34 |                29 |
+| 08a6f76bd428 | 1391 |          1388 | **99.78%** |          23.84 |     23 |  32 |                29 |
+| 2cbcbb0d97a0 | 1379 |          1377 | **99.85%** |          23.81 |     23 |  33 |                23 |
+
+
+| Metryka                         |                3N RUN02 |
+| ------------------------------- | ----------------------: |
+| Sender TX attempts              |                **4159** |
+| Sender ACK true                 | **4159 / 4159 = 100%** |
+| ACK false                       |                   **0** |
+| Send errors                     |                   **0** |
+| Unique records stored in Influx |                **4154** |
+| Missing sequence numbers        |                  **5** |
+| Duplicates                      |                   **1** |
+| **Stored PDR**                  |             **99.880%** |
+| (L_{n2g}) mean ± SD             |     **24.29 ± 5.45 ms** |
+| (L_{n2g}) median                |               **23 ms** |
+| (L_{n2g}) p95                   |               **33 ms** |
+| (L_{gateway}) mean ± SD         |     **13.43 ± 1.89 ms** |
+| (L_{gateway}) median            |               **13 ms** |
+| (L_{gateway}) p95               |               **15 ms** |
+| (L_{backend}) mean ± SD         | **1061.74 ± 18.72 ms** |
+| (L_{backend}) median            |          **1063.02 ms** |
+| (L_{backend}) p95               |          **1079.57 ms** |
+| (L_{total}) mean ± SD           | **1099.45 ± 19.08 ms** |
+| (L_{total}) median              |          **1100.00 ms** |
+| (L_{total}) p95                 |          **1118.66 ms** |
+| median (w_\theta)               |               **29 ms** |
+| p95 (w_\theta)                  |               **31 ms** |

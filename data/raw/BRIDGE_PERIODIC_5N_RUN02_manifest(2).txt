@@ -1,0 +1,73 @@
+BRIDGE_PERIODIC_5N_RUN02
+
+Source Influx export: influxdata_2026-08-10T19_54_50Z.csv
+Source gateway console: console_log(1).txt
+
+IMPORTANT METADATA NOTE:
+The gateway console/source metadata still reports run_id=BRIDGE_PERIODIC_5N_RUN01.
+This dataset is labeled externally as RUN02 based on its later timestamp/export and is kept separate from RUN01.
+
+DATASET
+Telemetry rows: 6641
+Distinct nodes: 5
+Run-summary rows: 5
+Duplicate telemetry rows by node+seq: 0
+
+END-TO-END STORED COMPLETENESS
+Sender TX attempts (sum final): 6947
+Sender ACK true (sum final): 6947
+Sender ACK false (sum final): 0
+Sender send errors (sum final): 0
+Unique stored telemetry records in this export: 6641
+
+IMPORTANT: this Influx export starts after the beginning of the run
+(first observed seq values are 7--29 depending on node), therefore
+6641/6947 = 95.595% MUST NOT be interpreted as the final stored PDR.
+
+Observed-window sequence continuity:
+Expected records between each node's first and last observed seq: 6866
+Unique stored records: 6641
+Missing internal sequence numbers: 225
+Observed-window continuity ratio: 96.723%
+
+LATENCY / SYNC (all stored telemetry records)
+L_n2g mean ± SD [ms]: 25.21 ± 23.57
+L_n2g median [ms]: 23.00
+L_n2g p95 [ms]: 37.00
+L_n2g min-max [ms]: 7.00 - 1315.00
+L_gateway mean ± SD [ms]: 13.43 ± 1.75
+L_gateway median [ms]: 13.00
+L_gateway p95 [ms]: 16.00
+Median w_theta [ms]: 28.00
+Mean w_theta [ms]: 25.50
+
+PER NODE
+08a6f75abdf0: rows=1323, unique=1323, seq=24..1385, missing_internal=39, duplicates=0, final_tx=1385, export_records/final_tx=95.523%
+08a6f769c348: rows=1325, unique=1325, seq=16..1392, missing_internal=52, duplicates=0, final_tx=1392, export_records/final_tx=95.187%
+08a6f76bd428: rows=1350, unique=1350, seq=7..1395, missing_internal=39, duplicates=0, final_tx=1395, export_records/final_tx=96.774%
+08a6f7bb3c68: rows=1307, unique=1307, seq=29..1385, missing_internal=50, duplicates=0, final_tx=1385, export_records/final_tx=94.368%
+2cbcbb0d97a0: rows=1336, unique=1336, seq=10..1390, missing_internal=45, duplicates=0, final_tx=1390, export_records/final_tx=96.115%
+
+GATEWAY CONSOLE SUMMARY
+last_rx: 6965
+last_pub: 6965
+rx_queue_max: 1
+tx_queue_max: 2
+rx_drop_final: 0
+tx_drop_final: 0
+retry_final: False
+mqtt_attempts: 1
+mqtt_connections: 1
+mqtt_reconnects_after_initial: 0
+mqtt_publish_fail: 0
+mqtt_requeued: 0
+mqtt_err104: 0
+mqtt_err113: 0
+mqtt_publish_ms_mean_final: 4.02
+mqtt_publish_ms_max: 1593
+sync_req: 1332
+sync_ack: 1332
+sync_noack: 0
+sync_errors: 0
+mem_free_min_snapshot: 36752
+peers_final: 5

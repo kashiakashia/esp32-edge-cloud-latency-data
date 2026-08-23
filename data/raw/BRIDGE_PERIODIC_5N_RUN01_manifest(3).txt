@@ -1,0 +1,48 @@
+BRIDGE_PERIODIC_5N_RUN01
+
+Source: influxdata_2026-08-10T18_53_42Z_1h.csv
+Telemetry rows retained: 6723
+Distinct nodes: 5
+Run-summary rows retained: 5
+
+Per-node coverage:
+08a6f75abdf0: records=1347, seq=1..1392, first=2026-08-10T18:09:28.8351104Z, last=2026-08-10T18:39:29.6825258Z, final_tx=1392, elapsed_ms=1801030
+08a6f769c348: records=1340, seq=1..1389, first=2026-08-10T18:09:41.1032811Z, last=2026-08-10T18:39:40.0893585Z, final_tx=1389, elapsed_ms=1800470
+08a6f76bd428: records=1350, seq=1..1389, first=2026-08-10T18:09:57.7745141Z, last=2026-08-10T18:39:57.6671532Z, final_tx=1389, elapsed_ms=1800830
+08a6f7bb3c68: records=1344, seq=1..1380, first=2026-08-10T18:09:19.6348249Z, last=2026-08-10T18:39:18.2010264Z, final_tx=1380, elapsed_ms=1800501
+2cbcbb0d97a0: records=1342, seq=1..1386, first=2026-08-10T18:09:53.6140008Z, last=2026-08-10T18:39:53.5527068Z, final_tx=1386, elapsed_ms=1801120
+
+
+| Node         |   TX | Unique stored |        PDR | (L_{n2g}) mean | median | p95 | median (w_\theta) |
+| ------------ | ---: | ------------: | ---------: | -------------: | -----: | --: | ----------------: |
+| 08a6f7bb3c68 | 1380 |          1343 | **97.32%** |          25.29 |     23 |  39 |                28 |
+| 08a6f75abdf0 | 1392 |          1346 | **96.70%** |          26.42 |     26 |  36 |                20 |
+| 08a6f769c348 | 1389 |          1340 | **96.47%** |          24.62 |     23 |  40 |                28 |
+| 2cbcbb0d97a0 | 1386 |          1342 | **96.83%** |          24.69 |     26 |  38 |                20 |
+| 08a6f76bd428 | 1389 |          1350 | **97.19%** |          24.16 |     23 |  34 |                29 |
+
+
+| Metryka                         |               5N RUN01 |
+| ------------------------------- | ---------------------: |
+| Sender TX attempts              |               **6936** |
+| Sender ACK true                 | **6936 / 6936 = 100%** |
+| ACK false                       |                  **0** |
+| Send errors                     |                  **0** |
+| Unique records stored in Influx |               **6721** |
+| Missing sequence numbers        |                **215** |
+| Duplicates                      |                  **1** |
+| **Stored PDR**                  |            **96.900%** |
+| (L_{n2g}) mean ± SD             |    **25.04 ± 6.34 ms** |
+| (L_{n2g}) median                |              **23 ms** |
+| (L_{n2g}) p95                   |              **38 ms** |
+| (L_{gateway}) mean ± SD         |    **13.52 ± 1.98 ms** |
+| (L_{gateway}) median            |              **13 ms** |
+| (L_{gateway}) p95               |              **17 ms** |
+| (L_{backend}) mean ± SD         | **407.40 ± 102.52 ms** |
+| (L_{backend}) median            |          **374.48 ms** |
+| (L_{backend}) p95               |          **601.41 ms** |
+| (L_{total}) mean ± SD           | **445.96 ± 102.40 ms** |
+| (L_{total}) median              |          **413.86 ms** |
+| (L_{total}) p95                 |          **638.50 ms** |
+| median (w_\theta)               |              **23 ms** |
+| p95 (w_\theta)                  |              **30 ms** |

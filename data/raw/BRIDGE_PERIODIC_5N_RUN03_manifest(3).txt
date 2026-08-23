@@ -1,0 +1,71 @@
+BRIDGE_PERIODIC_5N_RUN03
+
+Source Influx export: influxdata_2026-08-10T20_48_42Z.csv
+Source gateway console: console_log(2).txt
+
+IMPORTANT METADATA NOTE:
+Gateway console still reports run_id=BRIDGE_PERIODIC_5N_RUN01; this acquisition is labeled externally as RUN03.
+
+DATASET
+Telemetry rows: 6694
+Distinct nodes: 5
+Run-summary rows: 5
+All nodes start at seq=1: False
+
+COMPLETENESS
+Sender TX attempts (sum final): 6943
+Sender ACK true: 6943
+Sender ACK false: 0
+Sender send errors: 0
+Unique stored telemetry records in export: 6694
+Expected records inside observed seq windows: 6898
+Missing internal sequence numbers: 204
+Observed-window continuity ratio: 97.043%
+Final stored PDR is not reported because this export does not start at seq=1 for every node.
+
+LATENCY / SYNC
+L_n2g mean ± SD [ms]: 24.31 ± 6.26
+L_n2g median [ms]: 23.00
+L_n2g p95 [ms]: 38.00
+L_n2g min-max [ms]: 13.00 - 141.00
+L_gateway mean ± SD [ms]: 13.42 ± 1.84
+L_gateway median [ms]: 13.00
+L_gateway p95 [ms]: 16.00
+L_backend mean ± SD [ms]: 393.24 ± 98.37
+L_backend median [ms]: 359.97
+L_backend p95 [ms]: 585.53
+L_total mean ± SD [ms]: 430.96 ± 98.26
+L_total median [ms]: 398.00
+L_total p95 [ms]: 624.02
+Median w_theta [ms]: 29.00
+Mean w_theta [ms]: 26.99
+
+PER NODE
+08a6f75abdf0: rows=1338, unique=1338, seq=10..1389, missing_internal=42, duplicates=0, final_tx=1389
+08a6f769c348: rows=1333, unique=1333, seq=13..1385, missing_internal=40, duplicates=0, final_tx=1385
+08a6f76bd428: rows=1340, unique=1340, seq=5..1384, missing_internal=40, duplicates=0, final_tx=1384
+08a6f7bb3c68: rows=1340, unique=1340, seq=17..1396, missing_internal=40, duplicates=0, final_tx=1396
+2cbcbb0d97a0: rows=1343, unique=1343, seq=5..1389, missing_internal=42, duplicates=0, final_tx=1389
+
+GATEWAY CONSOLE SUMMARY
+last_rx: 6968
+last_pub: 6968
+rx_queue_max: 1
+tx_queue_max: 2
+rx_drop_final: 0
+tx_drop_final: 0
+mqtt_attempts: 1
+mqtt_connections: 1
+mqtt_reconnects_after_initial: 0
+mqtt_publish_fail: 0
+mqtt_requeued: 0
+mqtt_err104: 0
+mqtt_err113: 0
+mqtt_publish_ms_mean_final: 3.78
+mqtt_publish_ms_max: 507
+sync_req: 1320
+sync_ack: 1320
+sync_noack: 0
+sync_errors: 0
+mem_free_min_snapshot: 35792
+peers_final: 5

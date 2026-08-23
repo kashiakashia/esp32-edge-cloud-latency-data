@@ -1,0 +1,10 @@
+run,nodes,telemetry_rows_pre_dedup,duplicate_node_seq_rows,sender_tx_total,telemetry_file,summary_file
+1N-RUN01,1,1380,0,1380,BRIDGE_PERIODIC_1N_RUN01_30min_telemetry(1).csv,BRIDGE_PERIODIC_1N_RUN01_run_summary(1).csv
+1N-RUN02,1,1381,0,1381,BRIDGE_PERIODIC_1N_RUN02_30min_telemetry(1).csv,BRIDGE_PERIODIC_1N_RUN02_run_summary(1).csv
+1N-RUN03,1,1381,0,1381,BRIDGE_PERIODIC_1N_RUN03_30min_telemetry(1).csv,BRIDGE_PERIODIC_1N_RUN03_run_summary(1).csv
+3N-RUN01,3,4141,0,4171,BRIDGE_PERIODIC_3N_RUN01_30min_telemetry(1).csv,BRIDGE_PERIODIC_3N_RUN01_run_summary(1).csv
+3N-RUN02,3,4155,1,4159,BRIDGE_PERIODIC_3N_RUN02_30min_telemetry(1).csv,BRIDGE_PERIODIC_3N_RUN02_run_summary(1).csv
+3N-RUN03,3,4124,0,4149,BRIDGE_PERIODIC_3N_RUN03_30min_telemetry(1).csv,BRIDGE_PERIODIC_3N_RUN03_run_summary(1).csv
+5N-RUN01,5,6722,1,6936,BRIDGE_PERIODIC_5N_RUN01_30min_telemetry(2).csv,BRIDGE_PERIODIC_5N_RUN01_run_summary(2).csv
+5N-RUN02,5,6721,0,6947,BRIDGE_PERIODIC_5N_RUN02_30min_telemetry(2).csv,BRIDGE_PERIODIC_5N_RUN02_run_summary(2).csv
+5N-RUN03,5,6738,0,6943,BRIDGE_PERIODIC_5N_RUN03_30min_telemetry(3).csv,BRIDGE_PERIODIC_5N_RUN03_run_summary(3).csv
