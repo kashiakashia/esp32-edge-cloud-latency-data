@@ -1,8 +1,12 @@
 # Reproducibility package — ESP32/MicroPython bridge-assisted latency campaign
 
-This public package reproduces the quantitative bridge-assisted latency results from the updated experiment campaign.
-It includes data exports, preprocessing and analysis scripts, and generated numerical/figure outputs.
-Manuscript source files are intentionally not included in this repository.
+This repository provides the reproducibility package associated with the following publication:
+
+**K. Smelcerz, “Characterization of Latency Sources in a MicroPython-Based ESP32 Edge–Cloud Sensor Network,” *Sensors*, 2026, 26(17), 5555.**
+
+📄 [Published article in *Sensors*](https://www.mdpi.com/1424-8220/26/17/5555)
+
+The package reproduces the quantitative results of the bridge-assisted latency experiments reported in the article. It includes the experimental data exports, preprocessing and analysis scripts, and generated numerical and figure outputs required to reproduce the reported results. Manuscript source files are intentionally not included in this repository.
 
 ## Directory structure
 
